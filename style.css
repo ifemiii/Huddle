@@ -247,9 +247,111 @@ ul li a{
 .col p{
     line-height: 1.6em;
 }
+
 .copy{
     margin-top: 3.5em;
     text-align: right;
     font-size: 1rem;
 }
 
+@media only screen and (max-width: 870px){
+  .sub{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .Get{
+    /* width: 40%; */
+    margin: 0 auto;
+  }
+  .gsf{
+    width: 60%;
+  }
+
+  .card{
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+
+  .card-image{
+    order: 1;
+    margin-bottom: 2rem;
+  }
+
+  .card-description{
+    width: auto;
+  }
+
+  .mid-card{
+    max-width: 65%;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  footer p{
+    font-size: 1.8rem;
+  }
+  .footer-body{
+    margin-left: 5px;
+  }
+  .row{
+    flex-direction: column;
+  }
+
+  .row .col{
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .row .col a{
+    font-size: 1.8rem;
+  }
+
+  .social-icons{
+    align-self: center;
+    margin-bottom: 1rem;
+  }
+
+  .copy{
+    text-align: center;
+    padding: 0;
+  }
+} 
+
+@media only screen and (max-width: 458px) {
+  .sec-one{
+    background-image: url(./images/bg-hero-desktop.svg);
+  }
+
+  .header-logo{
+    width: 14rem;
+  }
+
+  .sec-two{
+    padding: 8rem 0 18rem 0;
+  }
+
+  .card-img{
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .Tif{
+    font-size: 1.2rem;
+    padding: 0.9rem 3.5rem
+  }
+
+  .Get{
+    width: 100%;
+  }
+
+  .col2{
+    margin-top: 3rem;
+  }
+  
+  .mid-card{
+    max-width: 100%;
+    padding: 3rem 1rem;
+  }
+}
+  
